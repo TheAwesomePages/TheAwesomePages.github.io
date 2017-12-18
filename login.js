@@ -1,5 +1,6 @@
 
 var allowedUsers =[ "bob" , "doodlemaster" , "bop34" , "ryan" , "eli"];
+var passwards =[ "1234" , "awesome" , "me34" , "2468" , "coding"];
 
 
 function myFunction(){
@@ -24,4 +25,3 @@ function myFunction(){
 
 }
 
-	// 
