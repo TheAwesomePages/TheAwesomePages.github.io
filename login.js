@@ -12,7 +12,7 @@ function myFunction(){
 		
 		if (passwards[allowedUsers.indexOf(user)] == pass) {
 			alert("You're in")
-			window.location.href="file:///E:/aaryan's%20stuff/Class%202/Final%20project/home.html";
+			window.location.href="home.html";
 		}
 		
 	}
