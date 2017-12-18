@@ -12,7 +12,7 @@ function myFunction(){
 		
 		if (passwards[allowedUsers.indexOf(user)] == pass) {
 			alert("You're in")
-			window.location.href="home.html";
+			window.location.href="https://theawesomepages.github.io/home";
 		}
 		
 	}
