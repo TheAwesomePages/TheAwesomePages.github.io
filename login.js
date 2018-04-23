@@ -13,7 +13,7 @@ function myFunction(){
 		if (passwards[allowedUsers.indexOf(user)] == pass) {
 			alert("You're in")
 			document.cookie = "auth=valid; path=/";
-			debugger
+			
 			window.location.href="home.html";
 		}
 		
