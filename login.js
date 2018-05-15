@@ -12,6 +12,8 @@ function myFunction(){
 		
 		if (passwards[allowedUsers.indexOf(user)] == pass) {
 			alert("You're in")
+			document.cookie = "auth=valid; path=/";
+			
 			window.location.href="home.html";
 		}
 		
@@ -24,7 +26,6 @@ function myFunction(){
 
 
 }
-
 
 var allowedUsers =[ "bob" , "doodlemaster" , "bop34" , "ryan" , "eli"];
 var passwards =[ "1234" , "awesome" , "me34" , "2468" , "coding"];
