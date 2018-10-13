@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Reaction Game</title>
+    <script
+			  src="http://code.jquery.com/jquery-3.3.1.min.js"
+			  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+			  crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="container">
+
+        <div id="playground">
+          <div id="start">START</div>
+          <div id="startGame">START</div>
+          <div id="dot"></div>
+        </div>
+
+<!-- Hidden until end of game -->
+        <div id="endScreen">
+          We have a winner!<br />
+          <p id="endCount">1</p> in
+          <p id="endSeconds">1</p> Seconds <br />
+        </div>
+<!-- /////////////////////////////////// -->
+
+        <div id="counter">Count: <span></span> </div>
+        <div id="timer">Timer: <span>0</span>s </div>
+      </div>
+      <script src="script.js"></script>
+      <ul>
+          <li>How did we link Jquery?</li>
+          <li>How do the hide and show functions work?</li>
+          <li>What different things do we notice about the show function? Think parameters!</li>
+          <li>How could we change the code to make this game easier/harder/different?</li>
+          <li>How does jquery adjust the time/score?</li>
+      </ul>
+      <button id="restart" onclick="FunctionRestart()">restart</button>
+</body>
+</html>

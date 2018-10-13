@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Music Game</title>
+    <link rel="stylesheet" href="musicbox.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
+</head>
+<body>
+    <!-- load all your sound behind the page -->
+    <audio id="cAudio">
+        <source src="sounds/c_note.mp3" type="audio/mpeg"></source>
+        <source src="sounds/c_note.ogg" type="audio/ogg"></source>
+        <source src="sounds/c_note.wav" type="audio/wav"></source>   
+    </audio>
+    <audio id="dAudio">
+        <source src="sounds/d_note.mp3" type="audio/mpeg"></source>
+        <source src="sounds/d_note.ogg" type="audio/ogg"></source>
+        <source src="sounds/d_note.wav" type="audio/wav"></source>   
+    </audio> 
+    <audio id="eAudio">
+        <source src="sounds/e_note.mp3" type="audio/mpeg"></source>
+        <source src="sounds/e_note.ogg" type="audio/ogg"></source>
+        <source src="sounds/e_note.wav" type="audio/wav"></source>   
+    </audio>
+    <audio id="fAudio">
+        <source src="sounds/f_note.mp3" type="audio/mpeg"></source>
+        <source src="sounds/f_note.ogg" type="audio/ogg"></source>
+        <source src="sounds/f_note.wav" type="audio/wav"></source>   
+    </audio>
+    <audio id="gAudio">
+        <source src="sounds/g_note.mp3" type="audio/mpeg"></source>
+        <source src="sounds/g_note.ogg" type="audio/ogg"></source>
+        <source src="sounds/g_note.wav" type="audio/wav"></source>   
+    </audio>
+    <audio id="aAudio">
+        <source src="sounds/a_note.mp3" type="audio/mpeg"></source>
+        <source src="sounds/a_note.ogg" type="audio/ogg"></source>
+        <source src="sounds/a_note.wav" type="audio/wav"></source>   
+    </audio>
+    <audio id="bAudio">
+        <source src="sounds/b_note.mp3" type="audio/mpeg"></source>
+        <source src="sounds/b_note.ogg" type="audio/ogg"></source>
+        <source src="sounds/b_note.wav" type="audio/wav"></source>   
+    </audio>
+
+
+
+    
+    <div id= "instrument">   
+        <div id= "c" class="box"></div>        
+        <div id= "d" class="box"></div>
+        <div id= "e" class="box"></div>
+        <div id= "f" class="box"></div>
+        <div id= "g" class="box"></div>
+        <div id= "a" class="box"></div>
+        <div id= "b" class="box"></div>
+    </div>
+<script src="musicbox.js"></script>    
+</body>
+</html>
